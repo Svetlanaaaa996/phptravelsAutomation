@@ -14,17 +14,4 @@
       </class> <!-- Demo.TestNGMultipleBrowserDemo -->
     </classes>
   </test> <!-- TestOnFirefox(failed) -->
-  <test thread-count="3" parallel="tests" name="TestOnChrome(failed)">
-    <parameter name="browserName" value="chrome"/>
-    <classes>
-      <class name="Demo.TestNGMultipleBrowserDemo">
-        <methods>
-          <include name="setup"/>
-          <include name="CheckHomePageLoadedThenClickLogin"/>
-          <include name="closeDriver"/>
-          <include name="pub"/>
-        </methods>
-      </class> <!-- Demo.TestNGMultipleBrowserDemo -->
-    </classes>
-  </test> <!-- TestOnChrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -6,14 +6,9 @@
       <class name="login.LoginTests">
         <methods>
           <include name="validateEmailAndPasswordBlankFields"/>
-          <include name="validateInvalidEmailAndPassword"/>
           <include name="CheckHomePageLoadedThenClickLogin"/>
           <include name="closeDriver"/>
           <include name="prepareTestDataReader"/>
-          <include name="validateEmailFieldWithoutUserName"/>
-          <include name="validateEmailFieldWithoutAtSign"/>
-          <include name="validateEmailFieldWithoutDoaminName"/>
-          <include name="validatePasswordBlankField"/>
         </methods>
       </class> <!-- login.LoginTests -->
     </classes>

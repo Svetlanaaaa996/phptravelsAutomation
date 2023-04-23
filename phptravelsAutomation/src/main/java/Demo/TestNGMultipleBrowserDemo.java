@@ -28,7 +28,7 @@ public class TestNGMultipleBrowserDemo {
 	LoginPage loginPage;
 	WebDriverExecuter webDriverExecuter;
 	
-	@Parameters("browseName")
+	@Parameters("browserName")
 	@BeforeTest
 	public void setup(String browserName) {
 	  System.out.println("Browser name is:"+browserName);
