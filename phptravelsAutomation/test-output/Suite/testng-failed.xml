@@ -6,10 +6,16 @@
     <classes>
       <class name="Demo.TestNGMultipleBrowserDemo">
         <methods>
+          <include name="validateEmailFieldWithoutAtSign"/>
+          <include name="validateEmailFieldWithoutDoaminName"/>
+          <include name="validateEmailFieldWithoutUserName"/>
+          <include name="validatePasswordBlankField"/>
+          <include name="validateInvalidEmailAndPassword"/>
           <include name="setup"/>
           <include name="CheckHomePageLoadedThenClickLogin"/>
           <include name="closeDriver"/>
-          <include name="pub"/>
+          <include name="prepareTestDataReader"/>
+          <include name="validateEmailAndPasswordBlankFields"/>
         </methods>
       </class> <!-- Demo.TestNGMultipleBrowserDemo -->
     </classes>
