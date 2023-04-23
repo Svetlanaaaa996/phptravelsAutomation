@@ -46,5 +46,10 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+        	<groupId>php-travels</groupId>
+        	<artifactId>php-travels</artifactId>
+        	<version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>
