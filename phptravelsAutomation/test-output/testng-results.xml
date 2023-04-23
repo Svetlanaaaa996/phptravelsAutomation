@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="6" passed="0" failed="0" skipped="6">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-23T17:20:39 CEST" name="Default suite" finished-at="2023-04-23T17:20:39 CEST" duration-ms="70">
+  <suite started-at="2023-04-23T17:51:32 CEST" name="Default suite" finished-at="2023-04-23T17:51:32 CEST" duration-ms="118">
     <groups>
     </groups>
-    <test started-at="2023-04-23T17:20:39 CEST" name="Default test" finished-at="2023-04-23T17:20:39 CEST" duration-ms="70">
+    <test started-at="2023-04-23T17:51:32 CEST" name="Default test" finished-at="2023-04-23T17:51:32 CEST" duration-ms="118">
       <class name="login.LoginTests">
-        <test-method is-config="true" signature="prepareTestDataReader()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:20:39 CEST" name="prepareTestDataReader" finished-at="2023-04-23T17:20:39 CEST" duration-ms="7" status="FAIL">
+        <test-method is-config="true" signature="prepareTestDataReader()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:51:32 CEST" name="prepareTestDataReader" finished-at="2023-04-23T17:51:32 CEST" duration-ms="10" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.net.URL.getPath()" because "sheetURL" is null]]>
@@ -48,11 +48,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareTestDataReader -->
-        <test-method is-config="true" signature="CheckHomePageLoadedThenClickLogin()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:20:39 CEST" name="CheckHomePageLoadedThenClickLogin" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682263239395" status="SKIP">
+        <test-method is-config="true" signature="CheckHomePageLoadedThenClickLogin()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:51:32 CEST" name="CheckHomePageLoadedThenClickLogin" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682265092906" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckHomePageLoadedThenClickLogin -->
-        <test-method signature="validateEmailAndPasswordBlankFields()[pri:1, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:20:39 CEST" name="validateEmailAndPasswordBlankFields" description="Validate email and password blank fields" finished-at="2023-04-23T17:20:39 CEST" duration-ms="0" status="SKIP">
+        <test-method signature="validateEmailAndPasswordBlankFields()[pri:1, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:51:32 CEST" name="validateEmailAndPasswordBlankFields" description="Validate email and password blank fields" finished-at="2023-04-23T17:51:32 CEST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.net.URL.getPath()" because "sheetURL" is null]]>
@@ -93,15 +93,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateEmailAndPasswordBlankFields -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:20:39 CEST" name="closeDriver" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682263239400" status="SKIP">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:51:32 CEST" name="closeDriver" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682265092913" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="CheckHomePageLoadedThenClickLogin()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:20:39 CEST" name="CheckHomePageLoadedThenClickLogin" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682263239403" status="SKIP">
+        <test-method is-config="true" signature="CheckHomePageLoadedThenClickLogin()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:51:32 CEST" name="CheckHomePageLoadedThenClickLogin" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682265092919" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckHomePageLoadedThenClickLogin -->
-        <test-method signature="validatePasswordBlankField()[pri:2, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:20:39 CEST" name="validatePasswordBlankField" description="Validate when password is a blank field" finished-at="2023-04-23T17:20:39 CEST" duration-ms="0" status="SKIP">
+        <test-method signature="validatePasswordBlankField()[pri:2, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:51:32 CEST" name="validatePasswordBlankField" description="Validate when password is a blank field" finished-at="2023-04-23T17:51:32 CEST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.net.URL.getPath()" because "sheetURL" is null]]>
@@ -142,11 +142,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePasswordBlankField -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:20:39 CEST" name="closeDriver" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682263239408" status="SKIP">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:51:32 CEST" name="closeDriver" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682265092925" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method signature="validateEmailFieldWithoutAtSign()[pri:3, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:20:39 CEST" name="validateEmailFieldWithoutAtSign" description="Validate email when it doesn&#039;t have @" finished-at="2023-04-23T17:20:39 CEST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="CheckHomePageLoadedThenClickLogin()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:51:32 CEST" name="CheckHomePageLoadedThenClickLogin" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682265092927" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHomePageLoadedThenClickLogin -->
+        <test-method signature="validateEmailFieldWithoutAtSign()[pri:3, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:51:32 CEST" name="validateEmailFieldWithoutAtSign" description="Validate email when it doesn&#039;t have @" finished-at="2023-04-23T17:51:32 CEST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.net.URL.getPath()" because "sheetURL" is null]]>
@@ -187,19 +191,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateEmailFieldWithoutAtSign -->
-        <test-method is-config="true" signature="CheckHomePageLoadedThenClickLogin()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:20:39 CEST" name="CheckHomePageLoadedThenClickLogin" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682263239409" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckHomePageLoadedThenClickLogin -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:20:39 CEST" name="closeDriver" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682263239412" status="SKIP">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:51:32 CEST" name="closeDriver" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682265092932" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="CheckHomePageLoadedThenClickLogin()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:20:39 CEST" name="CheckHomePageLoadedThenClickLogin" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682263239413" status="SKIP">
+        <test-method is-config="true" signature="CheckHomePageLoadedThenClickLogin()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:51:32 CEST" name="CheckHomePageLoadedThenClickLogin" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682265092934" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckHomePageLoadedThenClickLogin -->
-        <test-method signature="validateEmailFieldWithoutDoaminName()[pri:4, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:20:39 CEST" name="validateEmailFieldWithoutDoaminName" description="Validate email when it doesn&#039;t have domain name" finished-at="2023-04-23T17:20:39 CEST" duration-ms="0" status="SKIP">
+        <test-method signature="validateEmailFieldWithoutDoaminName()[pri:4, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:51:32 CEST" name="validateEmailFieldWithoutDoaminName" description="Validate email when it doesn&#039;t have domain name" finished-at="2023-04-23T17:51:32 CEST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.net.URL.getPath()" because "sheetURL" is null]]>
@@ -240,15 +240,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateEmailFieldWithoutDoaminName -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:20:39 CEST" name="closeDriver" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682263239416" status="SKIP">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:51:32 CEST" name="closeDriver" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682265092942" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="CheckHomePageLoadedThenClickLogin()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:20:39 CEST" name="CheckHomePageLoadedThenClickLogin" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682263239417" status="SKIP">
+        <test-method is-config="true" signature="CheckHomePageLoadedThenClickLogin()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:51:32 CEST" name="CheckHomePageLoadedThenClickLogin" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682265092946" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckHomePageLoadedThenClickLogin -->
-        <test-method signature="validateEmailFieldWithoutUserName()[pri:5, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:20:39 CEST" name="validateEmailFieldWithoutUserName" description="Validate email when it doesn&#039;t have user name" finished-at="2023-04-23T17:20:39 CEST" duration-ms="0" status="SKIP">
+        <test-method signature="validateEmailFieldWithoutUserName()[pri:5, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:51:32 CEST" name="validateEmailFieldWithoutUserName" description="Validate email when it doesn&#039;t have user name" finished-at="2023-04-23T17:51:32 CEST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.net.URL.getPath()" because "sheetURL" is null]]>
@@ -289,15 +289,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateEmailFieldWithoutUserName -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:20:39 CEST" name="closeDriver" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682263239421" status="SKIP">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:51:32 CEST" name="closeDriver" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682265092956" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="CheckHomePageLoadedThenClickLogin()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:20:39 CEST" name="CheckHomePageLoadedThenClickLogin" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682263239424" status="SKIP">
+        <test-method is-config="true" signature="CheckHomePageLoadedThenClickLogin()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:51:32 CEST" name="CheckHomePageLoadedThenClickLogin" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682265092958" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckHomePageLoadedThenClickLogin -->
-        <test-method signature="validateInvalidEmailAndPassword()[pri:6, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:20:39 CEST" name="validateInvalidEmailAndPassword" description="Validate invalid username and password" finished-at="2023-04-23T17:20:39 CEST" duration-ms="0" status="SKIP">
+        <test-method signature="validateInvalidEmailAndPassword()[pri:6, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:51:32 CEST" name="validateInvalidEmailAndPassword" description="Validate invalid username and password" finished-at="2023-04-23T17:51:32 CEST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.net.URL.getPath()" because "sheetURL" is null]]>
@@ -338,7 +338,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateInvalidEmailAndPassword -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:20:39 CEST" name="closeDriver" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682263239427" status="SKIP">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:login.LoginTests@1e1a0406]" started-at="2023-04-23T17:51:32 CEST" name="closeDriver" finished-at="1970-01-01T01:00:00 CET" duration-ms="-1682265092969" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
